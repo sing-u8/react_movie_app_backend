@@ -38,6 +38,8 @@ func (m *DBModel) Get(id int) (*Movie, error) {
 		return nil, err
 	}
 
+	// get the genres
+
 	return &movie, nil
 }
 
